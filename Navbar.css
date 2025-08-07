@@ -1,0 +1,34 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:	#4CAF50;
+  padding: 10px 0.25px;
+}
+
+.navbar-logo {
+  color: rgb(21, 18, 18);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  color: rgb(25, 22, 22);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar-links li a:hover,
+.navbar-links .active a {
+  background-color: #4f8964;
+}

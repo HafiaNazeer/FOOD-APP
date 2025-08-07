@@ -1,0 +1,48 @@
+/* src/components/ProjectBanner.css */
+.banner-container {
+  background: linear-gradient(135deg, #61cd23, #d7facd); /* Warm food-friendly colors */
+  text-align: center;
+  padding: 100px 20px;
+  border-bottom: 4px solid #f3f1e8;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #fff;
+}
+
+.banner-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* dark overlay for text readability */
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-title {
+  font-size: 56px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.banner-subtitle {
+  font-size: 24px;
+  color: #fdd835;
+  margin-bottom: 16px;
+}
+
+.banner-description {
+  font-size: 18px;
+  color: #ffffff;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
